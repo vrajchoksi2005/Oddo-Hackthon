@@ -1,0 +1,7 @@
+# Uploads Directory
+
+This directory is used for temporary file storage during image upload processing.
+
+Files uploaded here are processed and then uploaded to Cloudinary before being cleaned up from local storage.
+
+**Note**: This directory should be included in your .gitignore file to avoid committing uploaded files to version control.
